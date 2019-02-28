@@ -1,0 +1,7 @@
+/_hello*.so
+/build/
+/hello.py
+/hello_wrap.c
+/MANIFEST
+/dist/
+env/
