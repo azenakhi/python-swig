@@ -9,11 +9,11 @@ $ tar -xzvf swig-3.0.12.tar.gz
 $ ./configure --prefix=/Volumes/EnvDev/tools/swig
 
 ## Compile and install.
-sudo make
-sudo make install
+$ sudo make
+$ sudo make install
 
 ## Add SWIG_PATH environment variable, also add it in PATH environment variable.
-sudo vim ~/.bash_profile
+$ sudo vim ~/.bash_profile
 export SWIG_PATH=/Volumes/EnvDev/tools/swig/bin
 export PATH=$SWIG_PATH:$PATH
 
